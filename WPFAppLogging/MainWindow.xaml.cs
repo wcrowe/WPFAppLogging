@@ -7,19 +7,13 @@ namespace WPFAppLogging {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow {
-        public static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
-   
         public MainWindow() {
             InitializeComponent();
             DoLog();
         }
 
         private void DoLog() {
-
-
-        
-            Logger.Info("App Starting");
-         
+            App.Logger.Info("App Starting");
         }
     }
 }
