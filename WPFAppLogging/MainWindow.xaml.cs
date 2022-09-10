@@ -1,8 +1,4 @@
-﻿using System.Data;
-using NLog;
-using NLog.Fluent;
-
-namespace WPFAppLogging {
+﻿namespace WPFAppLogging {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>

@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:WPFAppLogging"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Background="#FF3E3B3B">
+        <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition x:Name="leftcol" Width="113*"/>
+            <ColumnDefinition x:Name="rightcol" Width="263*">
+                <ColumnDefinition.Style>
+                    <Style>
+                        
+                    </Style>
+                </ColumnDefinition.Style>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+
+
+        </Grid.RowDefinitions>
+
     </Grid>
 </Window>
