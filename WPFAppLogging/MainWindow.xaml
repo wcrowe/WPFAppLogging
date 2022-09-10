@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
-
+        <Style TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="Height" Value="30px"></Setter>
+            <Setter Property="Width" Value="100px"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+        </Style>
     </Window.Resources>
     <DockPanel>
         <TextBlock Background="LightBlue"
@@ -18,14 +23,8 @@
                 Background="Lavender">Some More Text</TextBlock>
         <DockPanel Background="Bisque">
             <StackPanel DockPanel.Dock="Top">
-                <Button HorizontalAlignment="Left" 
-                Height="30px"
-                Width="100px"
-                Margin="10,10,10,10">Button1</Button>
-                <Button HorizontalAlignment="Left"
-                Height="30px"
-                Width="100px"
-                Margin="10,10,10,10">Button2</Button>
+                <Button>Button1</Button>
+                <Button>Button2</Button>
             </StackPanel>
             <TextBlock Background="LightGreen">Some Text Below the Buttons</TextBlock>
         </DockPanel>
