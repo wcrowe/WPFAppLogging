@@ -6,22 +6,28 @@
         xmlns:local="clr-namespace:WPFAppLogging"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Background="#FF3E3B3B">
-        <Grid.ColumnDefinitions>
-            
-            <ColumnDefinition x:Name="leftcol" Width="113*"/>
-            <ColumnDefinition x:Name="rightcol" Width="263*">
-                <ColumnDefinition.Style>
-                    <Style>
-                        
-                    </Style>
-                </ColumnDefinition.Style>
-            </ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions >
+    <Window.Resources>
 
-
-        </Grid.RowDefinitions>
-
-    </Grid>
+    </Window.Resources>
+    <DockPanel>
+        <TextBlock Background="LightBlue"
+                DockPanel.Dock="Top">Some Text</TextBlock>
+        <TextBlock DockPanel.Dock="Bottom"
+                Background="LightYellow">Some text at the bottom of the page.</TextBlock>
+        <TextBlock DockPanel.Dock="Left"
+                Background="Lavender">Some More Text</TextBlock>
+        <DockPanel Background="Bisque">
+            <StackPanel DockPanel.Dock="Top">
+                <Button HorizontalAlignment="Left" 
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">Button1</Button>
+                <Button HorizontalAlignment="Left"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">Button2</Button>
+            </StackPanel>
+            <TextBlock Background="LightGreen">Some Text Below the Buttons</TextBlock>
+        </DockPanel>
+    </DockPanel>
 </Window>

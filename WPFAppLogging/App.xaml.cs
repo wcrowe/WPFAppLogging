@@ -8,7 +8,7 @@ namespace WPFAppLogging {
     /// </summary>
     //public partial class App { }
     public partial class App {
-        public static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 
         protected override void OnStartup(StartupEventArgs e) {
             base.OnStartup(e);
