@@ -24,7 +24,7 @@
         <DockPanel Background="Bisque">
             <StackPanel DockPanel.Dock="Top">
                 <Button>Button1</Button>
-                <Button>Button2</Button>
+                <Button Click="Button_Click">Log Warn</Button>
             </StackPanel>
             <TextBlock Background="LightGreen">Some Text Below the Buttons</TextBlock>
         </DockPanel>

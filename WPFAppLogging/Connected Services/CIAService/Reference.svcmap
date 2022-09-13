@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="9da65a58-292f-40d7-9af2-01ab70d9e3ed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:44356/CiaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CiaService.wsdl" MetadataType="Wsdl" ID="fb758670-0e81-41f8-a35a-87314e714a10" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?wsdl" />
+    <MetadataFile FileName="CiaService.xsd" MetadataType="Schema" ID="48d63208-ccaf-435b-a070-5546d0d0ad20" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CiaService1.xsd" MetadataType="Schema" ID="0f6f111f-02a0-423b-a3b5-7c3e9535591d" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CiaService2.xsd" MetadataType="Schema" ID="31ae1633-c863-44e2-8daa-34daa8b399d8" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CiaService3.xsd" MetadataType="Schema" ID="2315ad90-0eb3-4888-9966-4bca639a70c1" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CiaService.disco" MetadataType="Disco" ID="417766f1-fcd2-4ba2-88b5-2b35a1809ac4" SourceId="1" SourceUrl="https://localhost:44356/CiaService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
